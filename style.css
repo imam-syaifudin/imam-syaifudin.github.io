@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bs-body-color);
+    font-family: 'Signika Negative', sans-serif;
+}
+
+
+/* Setting the stroke to green using rgb values (0, 128, 0) */
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 193, 7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+section {
+  padding-top: 5rem;
+}
+
+nav {
+    background-color: var(--bs-body-color);
+}
+
+
+nav ul li a {
+    margin: 5px 5px;
+}
+nav ul {
+    transition: 0.7s;
+}
+
+nav ul li a:hover {
+    opacity: 0.4;
+    color: white;
+    transition: 0.7s;
+}
+
+.about {
+  margin-top: 100px;
+}
+
+.skil {
+
+}
+
+.skil .card {
+  margin-top: -50px;
+  background-color: var(--bs-body-color);
+}
+
+.skil .card-body svg {
+  fill: var(--bs-yellow);
+  width: 95%;
+  height: 95%;
+}
+.main {
+    margin-top: 150px;
+}
+
+.main .hero:hover {
+    transition: 0.7s;
+    opacity: 0.7;
+}
+
+.main img {
+  border: 2px solid var(--bs-yellow);
+  background-size: cover;
+}
+
+.social-media  {
+    margin-top: 100px;
+}
+
+ .social-media a {
+    color: white;
+    
+ }
+
+ .social-media a svg {
+    width: 30px;
+    height: 30px;
+ }
+
+ .project {
+  margin-top: 20px;
+ }
+
+ .project .card {
+  background-color: var(--bs-body-color);
+  margin-top: 50px;
+}
+
+ 
+
+ .blockquote-custom {
+  position: relative;
+  font-size: 1.1rem;
+}
+
+.blockquote-custom-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -40px;
+  left: 19px;
+}
+
+ 
+
+ .box {
+    position: relative;
+    height:  60px;
+    width: 60px;
+    display: block;
+    border-radius: 100%;
+    background: linear-gradient(0deg, black, #444444);
+  }
+  
+  .glowing::before{
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    border-radius: 100%;
+    background: linear-gradient(45deg, var(--bs-yellow),#30290d);
+    background-size: 400%;
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    z-index: -1;
+    animation: glower 10s linear infinite;
+  }
+
+  footer {
+    margin-top: 70px;
+  }
+  
+  @keyframes glower {
+    0% {
+      background-position: 0 0;
+    }
+    
+    50% {
+      background-position: 400% 0;
+    }
+    
+    100% {
+      background-position: 0 0;
+    }
+  }
