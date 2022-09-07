@@ -112,6 +112,7 @@ nav ul li a:hover {
 
 .audio iframe {
   color: white;
+  background-color: var(--bs-body-color);
 }
 
  
