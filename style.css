@@ -39,9 +39,6 @@ nav ul li a:hover {
   margin-top: 100px;
 }
 
-.skil {
-
-}
 
 .skil .card {
   margin-top: -50px;
@@ -107,6 +104,14 @@ nav ul li a:hover {
   position: absolute;
   top: -40px;
   left: 19px;
+}
+
+.audio {
+  background-color: var(--bs-body-color);
+}
+
+.audio iframe {
+  color: white;
 }
 
  
