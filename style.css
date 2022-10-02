@@ -14,7 +14,7 @@ body {
 }
 
 section {
-  padding-top: 5rem;
+  padding-top: 6rem;
 }
 
 nav {
@@ -23,16 +23,29 @@ nav {
 
 
 nav ul li a {
-    margin: 5px 5px;
+    transition: 0.7s;
 }
 nav ul {
     transition: 0.7s;
+    margin-right: 30px;
 }
 
 nav ul li a:hover {
     opacity: 0.4;
     color: white;
     transition: 0.7s;
+}
+
+.navItem {
+  border-radius: 40px;
+  width: 90%;
+  margin-bottom: 2px;
+  margin-left: 40px;
+  margin-top: 6px;
+}
+
+.navItem:hover {
+    color: white;
 }
 
 .about {
@@ -51,7 +64,7 @@ nav ul li a:hover {
   height: 95%;
 }
 .main {
-    margin-top: 150px;
+    margin-top: 170px;
 }
 
 .main .hero:hover {
